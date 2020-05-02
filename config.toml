@@ -2,3 +2,6 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
+
+# uncomment linke below to use github pages publish from `/docs`
+# publishDir = "docs"
