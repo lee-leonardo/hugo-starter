@@ -11,9 +11,10 @@ Learn more at the site: https://gohugo.io/getting-started/external-learning-reso
 
 ```
 .
-├── archetypes      # templates to generate front matter based on the path used (example below)
 ├── config.toml     # config can be json, toml, yaml. https://gohugo.io/getting-started/configuration/#all-variables-yaml
-├── content         # output folder
+├── public          # the output of hugo, this is to be published by github pages.
+├── content         # parent folder of content (example below)
+├── archetypes      # templates to generate front matter based on the path used (example below)
 ├── assets          # things to process with hugo pipes such as Sass/Less, etc. https://gohugo.io/hugo-pipes/
 ├── data            # data to be processed into pages can be json, toml, yaml. https://gohugo.io/templates/data-templates/
 ├── layouts         # html templates. https://gohugo.io/templates/introduction/
@@ -25,6 +26,7 @@ Learn more at the site: https://gohugo.io/getting-started/external-learning-reso
 
 ### Examples
 
+- content: content divides the website into sections of content e.g. `content/posts`, `content/blog`, `content/about`, `content/tutorials`
 - archetypes: `hugo new posts/newPost.md` will use the default front matter from `archetypes/posts.md`, `archetypes/default.md`, then theme related ones.
 
 ## Running Locally
