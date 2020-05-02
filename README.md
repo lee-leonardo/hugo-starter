@@ -1,13 +1,14 @@
-# leo-hugo-starter
+# Hugo starter project
 A hugo starter project with the scripts in place for adoption on github pages. Also a helpful synopsis included here of the starter guide to serve as a reference and get up to speed with a glance.
 Learn more at the site: https://gohugo.io/getting-started/external-learning-resources/
+The hugo docs are really good and most of stuff here is just derived from there, I just wanted to add it in a single place so people can get up and running within an hour.
 
 ## Prereqs
 
 - [install hugo](https://gohugo.io/getting-started/installing/)
 - generate template: `hugo new site <name>`
 
-## Layout
+## Directory structure
 
 ```
 .
