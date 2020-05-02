@@ -51,7 +51,7 @@ Learn more at the site: https://gohugo.io/getting-started/external-learning-reso
 
 ## Github Pages
 
-### Simple
+### Simple github managed publishing
 
 1. Add the configuration to point the toml file to publish at docs
 **config.toml**
@@ -66,7 +66,17 @@ Here's some links to help out.
 - [Hugo Site](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
 - [Github Pages Site](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
 
-## Github Actions
+### To keep the hugo repo private
+
+1. Create a submodule for your public folder: `git submodule add -b master https://github.com/<USERNAME>/<USERNAME>.github.io.git public`.
+2. Subsequent deployments can be done with `bash ./deploy.sh`.
+
+- [deploy.sh source](https://gohugo.io/hosting-and-deployment/hosting-on-github/#put-it-into-a-script).
+
+### Github Actions
+
+
+
 
 
 
