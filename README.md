@@ -49,6 +49,27 @@ Learn more at the site: https://gohugo.io/getting-started/external-learning-reso
 2. if you are using git for version control and the theme is a gitmodule gitmodules: `git submodule add <url to git> themes/<theme name>`
 3. Add the theme key to the config.toml file: `theme = "<theme name>"`
 
+## Github Pages
+
+### Simple
+
+1. Add the configuration to point the toml file to publish at docs
+**config.toml**
+```toml
+publishDir = "docs"
+```
+
+2. Navigate to github.com/<username>/<project-name>/settings.
+3. Go to the github pages section, in the drop down select the option to deploy from the `/docs` folder.
+
+Here's some links to help out.
+- [Hugo Site](https://gohugo.io/hosting-and-deployment/hosting-on-github/)
+- [Github Pages Site](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+
+## Github Actions
+
+
+
 ## Advanced Archetypes
 
 Archetypes can be used to create folders.
